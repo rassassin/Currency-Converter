@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="pageBackground">
+    <div class="currencyConverterBox" >
+      <h1>Currency Converter</h1>
+      <p class="textStyling">Amount</p>
+      <input id="amountBox" class="inputStyle"></input>
+
+      <p class="textStyling">From</p>
+      <select id="fromBox" class="inputStyle"></select>
+
+      <div class="transferIcon"></div>
+
+      <p class="textStyling">To</p>
+      <select id="desiredCurrency" class="inputStyle"></select>
+      
+      <output id="convertedOutput" class="convertedOutputStyle"></output>
+
+      <output id="liveExchangeRate" class="convertedOutputStyle"></output>
+
+      <a onclick="convertAmount()" class="convertButton">Get Exchange Rate</a>
+    </div>
+      <script src="newFile.js"></script>
+        <script src="index.js"></script>
+  </body>
+</html>

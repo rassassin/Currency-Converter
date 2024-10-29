@@ -1,0 +1,93 @@
+.currencyConverterBox {
+  width: 80vw;
+  max-width: 400px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  border: 2.5px solid #120a18;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  background-color: rgba(26, 16, 33, 0.8);
+}
+
+.inputStyle {
+  border-radius: 7.5px;
+  border: 1px solid white;
+  padding: 5px;
+  width: 100%;
+  height: 10%;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.pageBackground {
+  background: rgb(36, 42, 60);
+  background: linear-gradient(
+    170deg,
+    rgba(48, 32, 56, 1) 25%,
+    rgba(40, 30, 48, 1) 50%,
+    rgba(36, 42, 60, 1) 90%
+  );
+}
+
+.convertedOutputStyle {
+  padding: 20px 0px 20px;
+}
+
+option {
+  background-color: rgb(36, 42, 60);
+  color: white;
+}
+
+p,
+select,
+input,
+output,
+a,
+h1 {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  display: block;
+}
+
+p {
+  padding: 20px 0 0 0;
+}
+
+a {
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(26, 16, 33);
+  border: none;
+  background-color: rgba(33, 37, 48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+a:hover{
+  background-color: rgba(48, 32, 56, 1);
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* @media only screen and (min-width: 480px) {
+  .currencyConverterBox {
+    width: 400px;
+  }
+} */
